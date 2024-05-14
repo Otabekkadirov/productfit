@@ -1,0 +1,19 @@
+.btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* padding: 23px 40px; */
+    padding: 25px 24px;
+    background-color: var(--color-target);
+    color: #fff;
+    font-weight: bold;
+    /* border-radius: 15px; */
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0 rgba(30, 149, 155, 0.5);
+}
+.btn:hover {
+    filter: brightness(95%);
+}
+.btn:active {
+    scale: 0.98;
+}
