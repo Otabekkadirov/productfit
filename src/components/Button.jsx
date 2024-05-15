@@ -1,8 +1,7 @@
-/* eslint-disable react/prop-types */
-import "../css/button.css";
+import styles from "../css/button.module.css";
 
 const Button = ({ buttonTitle }) => {
-    return <button className="btn primary-btn">{buttonTitle}</button>;
+    return <button className={styles.btn}>{buttonTitle}</button>;
 };
 
 export default Button;

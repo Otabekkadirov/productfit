@@ -6,7 +6,7 @@ const Hero = () => {
         <section className="hero">
             <div className="wrapper hero__wrapper">
                 <div className="hero__content">
-                    <div className="hero__title">Разработка IT‑продуктов</div>
+                    <h2 className="hero__title">Разработка IT‑продуктов</h2>
                     <p className="hero__description">
                         Разработаем проект с нуля, доработаем текущий проект или
                         усилим вашу ИТ-команду лучшими разработчиками на рынке
