@@ -11,7 +11,10 @@ const Hero = () => {
                         Разработаем проект с нуля, доработаем текущий проект или
                         усилим вашу ИТ-команду лучшими разработчиками на рынке
                     </p>
-                    <Button buttonTitle={"НАЧАТЬ НОВЫЙ ПРОЕКТ"} />
+                    <Button
+                        buttonType="btn-colored"
+                        buttonTitle="НАЧАТЬ НОВЫЙ ПРОЕКТ"
+                    />
                 </div>
                 <div className="hero__banner">
                     <img src={heroBackground} alt="hero banner" />

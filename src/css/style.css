@@ -157,3 +157,123 @@ body {
 .service__description span {
     font-weight: 700;
 }
+
+/* projects section */
+.projects {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: var(--color-background);
+}
+
+.projects__title {
+    color: var(--color-main);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.projects__cards {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 46px 62px;
+    margin-bottom: 44px;
+}
+.project__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+    padding: 20px 25px;
+    border-radius: 25px;
+    background: var(--gradient);
+    box-shadow: 0px 50px 25px -45px rgba(30, 149, 155, 0.5);
+    transition: 200ms;
+}
+.project__card:hover {
+    box-shadow: 0px 25px 25px -45px rgba(30, 149, 155, 0.5);
+}
+.project__card-img {
+    margin-bottom: 10px;
+}
+.project__card-title {
+    color: var(--color-main);
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.project__card-text {
+    color: var(--color-text);
+    font-size: 14px;
+    line-height: 17px;
+}
+.projects__wrapper > .btn {
+    margin: 0 auto;
+    display: block;
+}
+
+/* news section */
+
+.news {
+    background-image: url("../assets/images/bg/news-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.news__wrapper {
+    max-width: 1158px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 30px 0;
+    position: relative;
+}
+.news__content {
+    max-width: 608px;
+}
+.news__date {
+    color: var(--color-target);
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 6px;
+}
+.news__title {
+    color: var(--color-main);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+.news__arrows {
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+
+    position: absolute;
+    right: -70px;
+    left: -70px;
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+.arrow {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.arrow > svg > path {
+    opacity: 0.15;
+}
+.arrow > svg:hover > path {
+    opacity: 1;
+}
+.arrow > svg:active > path {
+    scale: 0.98;
+}

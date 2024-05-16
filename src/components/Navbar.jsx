@@ -24,7 +24,10 @@ const Navbar = () => {
                         <img src={phone} alt="phone" />
                         +7 800 301-79-27
                     </a>
-                    <Button buttonTitle={"НАЧАТЬ ПРОЕКТ"} />
+                    <Button
+                        buttonType="btn-colored"
+                        buttonTitle="НАЧАТЬ ПРОЕКТ"
+                    />
                 </div>
             </div>
         </nav>

@@ -5,8 +5,4 @@ import "./css/reset.css";
 import "./css/style.css";
 import "./assets/fonts/font.css";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>
-);
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);

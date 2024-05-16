@@ -47,7 +47,10 @@ const Services = () => {
                             рекомендации по подготовке проекта к разработке.
                             <span> Это бесплатно.</span>
                         </p>
-                        <Button buttonTitle={"Записаться на интервью"} />
+                        <Button
+                            buttonType="btn-colored"
+                            buttonTitle="Записаться на интервью"
+                        />
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
-import styles from "../css/button.module.css";
+import "../css/button.css";
 
-const Button = ({ buttonTitle }) => {
-    return <button className={styles.btn}>{buttonTitle}</button>;
+const Button = ({ buttonType, buttonTitle }) => {
+    return <button className={`btn ${buttonType}`}>{buttonTitle}</button>;
 };
 
 export default Button;
