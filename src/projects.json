@@ -2,31 +2,31 @@
     {
         "title": "Cabify",
         "text": "Кроссплатформенное приложение под Android и iOS разработано на React Native(Python)",
-        "icon": "../assets/images/icons/project1.png"
+        "icon": "/icons/project1.png"
     },
     {
         "title": "Ural Airlines",
         "text": "Все сервисы для пассажиров «Уральских авиалиний» в одном приложении на Swift и Java",
-        "icon": "../assets/images/icons/project2.png"
+        "icon": "/icons/project2.png"
     },
     {
         "title": "OpenGift",
         "text": "Система монетизации OpenSource-проектов на основе блокчейна hyperledger fabric",
-        "icon": "../assets/images/icons/project3.png"
+        "icon": "/icons/project3.png"
     },
     {
         "title": "PlanDi",
         "text": "Сервис поиска актуальной работыпроектировщикам и компаниям",
-        "icon": "../assets/images/icons/project4.png"
+        "icon": "/icons/project4.png"
     },
     {
         "title": "Коалиция",
         "text": "Проект для ведущего в России Центра образования, который осуществляет подготовку школьников к сдаче ЕГЭ.",
-        "icon": "../assets/images/icons/project5.png"
+        "icon": "/icons/project5.png"
     },
     {
         "title": "Rubetek",
         "text": "Управление домом IoT и микрофреймворк на языке Python совместно с Java и Swift",
-        "icon": "../assets/images/icons/project6.png"
+        "icon": "/icons/project6.png"
     }
 ]
