@@ -1,17 +1,19 @@
+import { Link } from "react-router-dom";
 import logoProductfit from "../assets/images/logo/logo-productfit.svg";
 import paperplane from "../assets/images/icons/paperplane.png";
 import envelope from "../assets/images/icons/envelope.png";
 import phone from "../assets/images/icons/phone.png";
 import Button from "./Button";
+import "../css/navbar.css";
 
 const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="wrapper navbar__wrapper">
                 <div className="logo">
-                    <a href="#!">
+                    <Link to="/">
                         <img src={logoProductfit} alt="logo" />
-                    </a>
+                    </Link>
                 </div>
                 <div className="navbar-icons">
                     <a href="#!">

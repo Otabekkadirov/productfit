@@ -1,27 +1,24 @@
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Partners from "./components/Partners";
-import Projects from "./components/Projects";
-import Services from "./components/Services";
-import News from "./components/News";
-import Products from "./components/Products";
-import RequestSection from "./components/RequestSection";
-import Footer from "./components/Footer";
+import {
+    Route,
+    createBrowserRouter,
+    createRoutesFromElements,
+    RouterProvider,
+} from "react-router-dom";
+import MainLayout from "./layouts/MainLayout";
+import HomePage from "./pages/HomePage";
+import ProjectsPage from "./pages/ProjectsPage";
+
+const router = createBrowserRouter(
+    createRoutesFromElements(
+        <Route path="/" element={<MainLayout />}>
+            <Route index element={<HomePage />} />
+            <Route path="/projects" element={<ProjectsPage />} />
+        </Route>
+    )
+);
 
 const App = () => {
-    return (
-        <>
-            <Navbar />
-            <Hero />
-            <Partners />
-            <Services />
-            <Projects />
-            <News />
-            <Products />
-            <RequestSection />
-            <Footer />
-        </>
-    );
+    return <RouterProvider router={router} />;
 };
 
 export default App;

@@ -1,0 +1,11 @@
+/* partners section */
+.partners {
+    background-color: var(--color-main);
+    padding: 17px 0 18.56px;
+}
+.partners__wrapper {
+    max-width: 1158px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}

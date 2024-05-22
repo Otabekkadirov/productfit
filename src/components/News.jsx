@@ -1,4 +1,5 @@
 import newsBackground from "../assets/images/bg/news-bg.png";
+import "../css/news.css";
 
 const News = () => {
     function moveNewsLeft() {

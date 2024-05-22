@@ -1,6 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import projects from "../projects.json";
 import Button from "./Button";
+import "../css/projects.css";
 
 const Projects = () => {
     return (

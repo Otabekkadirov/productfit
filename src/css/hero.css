@@ -1,0 +1,29 @@
+/* hero section */
+.hero {
+    background-color: var(--color-background);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 52px;
+}
+.hero__title {
+    width: min-content;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.25;
+    color: var(--color-main);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.hero__description {
+    width: 320px;
+    text-wrap: balance;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--color-text);
+    margin-bottom: 50px;
+}

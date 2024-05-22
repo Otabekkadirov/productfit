@@ -6,6 +6,7 @@ import serviceImg4 from "../assets/images/icons/service4.svg";
 import serviceImg5 from "../assets/images/icons/service5.svg";
 import servicebg from "../assets/images/bg/service-bg.png";
 import Button from "./Button";
+import "../css/services.css";
 
 const Services = () => {
     return (

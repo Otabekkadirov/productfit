@@ -1,5 +1,6 @@
 import Button from "./Button";
 import heroBackground from "../assets/images/bg/hero-bg.png";
+import "../css/hero.css";
 
 const Hero = () => {
     return (

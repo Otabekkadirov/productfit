@@ -7,6 +7,7 @@ import product6 from "../assets/images/icons/products/product6.svg";
 import product7 from "../assets/images/icons/products/product7.svg";
 import product8 from "../assets/images/icons/products/product8.svg";
 import ProductCard from "./ProductCard";
+import "../css/products.css";
 
 const Products = () => {
     return (

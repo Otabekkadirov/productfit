@@ -1,0 +1,32 @@
+/* navbar section */
+.navbar {
+    background-color: var(--color-background);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.navbar__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 239px;
+}
+.navbar-icons {
+    display: flex;
+    align-items: center;
+    gap: 57px;
+}
+.navbar-icons a {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-main);
+    gap: 16px;
+}
+.navbar-icons > button {
+    padding: 23px 40px;
+    border-radius: 15px;
+    box-shadow: none;
+}

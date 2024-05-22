@@ -3,6 +3,7 @@ import partner2 from "../assets/images/icons/partner2.svg";
 import partner3 from "../assets/images/icons/partner3.svg";
 import partner4 from "../assets/images/icons/partner4.svg";
 import partner5 from "../assets/images/icons/partner5.svg";
+import "../css/partners.css";
 
 const Partners = () => {
     return (
