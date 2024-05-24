@@ -1,6 +1,7 @@
 .projects-hero {
     padding-top: 120px;
     background-color: var(--color-background);
+    padding-bottom: 75px;
 }
 .projects-hero__wrapper {
     display: flex;

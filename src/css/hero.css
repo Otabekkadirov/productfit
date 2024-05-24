@@ -1,4 +1,8 @@
 /* hero section */
+.hero,
+.hero * {
+    /* outline: 4px solid rgba(0, 0, 0, 0.5); */
+}
 .hero {
     background-color: var(--color-background);
     padding-top: 32px;
@@ -26,4 +30,37 @@
     line-height: 1.14;
     color: var(--color-text);
     margin-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+    .hero {
+        background-color: var(--color-background);
+        padding-top: 32px;
+        padding-bottom: 32px;
+        background-image: url("../assets/images/bg/hero-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: 180px;
+    }
+    .hero__wrapper {
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    .hero__banner {
+        display: none;
+    }
+    .hero__title {
+        text-align: center;
+    }
+    .hero__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero__content > button {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
 }
