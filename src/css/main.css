@@ -15,7 +15,7 @@ body {
     letter-spacing: normal;
 }
 .wrapper {
-    max-width: 1084px;
+    max-width: 1158px;
     width: calc(100% - 20px);
     margin: 0 auto;
 }

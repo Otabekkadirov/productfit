@@ -1,0 +1,37 @@
+.btn-arrow {
+    all: unset;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-arrow:active,
+.btn-arrow:focus-visible {
+    animation: squish 200ms ease-in-out;
+}
+@keyframes squish {
+    50% {
+        scale: 1.2 0.8;
+    }
+}
+.btn-arrow > * {
+    user-select: none;
+    opacity: 0.15;
+    fill: var(--color-main);
+}
+.btn-arrow:hover > * {
+    opacity: 1;
+}
+.projects-slider-arrows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80% !important;
+}
+.projects-slider-arrows > *:hover,
+.projects-slider-arrows > *:focus-visible {
+    cursor: pointer;
+    opacity: 1;
+}

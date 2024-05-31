@@ -4,7 +4,7 @@
     padding-top: 120px;
 }
 .products__wrapper {
-    max-width: 1306px;
+    max-width: 1306px !important;
 }
 .products__cards {
     display: grid;
